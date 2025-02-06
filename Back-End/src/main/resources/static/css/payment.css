@@ -1,0 +1,57 @@
+/* Tổng quan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container chính */
+.payment-container {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Tiêu đề */
+.payment-container h1 {
+    font-size: 24px;
+    color: #2ecc71;
+    margin-bottom: 20px;
+}
+
+/* Đoạn văn */
+.payment-container p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Đoạn văn mạnh */
+.payment-container p strong {
+    color: #333;
+}
+
+/* Nút bấm */
+.payment-container .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-container .btn:hover {
+    background-color: #27ae60;
+}
