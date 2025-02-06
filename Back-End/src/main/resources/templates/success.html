@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán thành công</title>
+    <link rel="stylesheet" href="/css/payment.css">
+</head>
+<body>
+    <div class="payment-container success">
+        <h1>🎉 Giao dịch thành công!</h1>
+        <p><strong>Mã hóa đơn:</strong> <span th:text="${transactionId}"></span></p>
+        <p><strong>Ngân hàng:</strong> <span th:text="${bankCode}"></span></p>
+        <p><strong>Thời gian thanh toán:</strong> <span th:text="${formattedDate}"></span></p>
+        <p><strong>Số tiền:</strong> <span th:text="${formattedAmount}"></span> VND</p>
+        <a href="/api/payment/vn-pay" class="btn">Quay về ứng dụng</a>
+    </div>
+</body>
+</html>
