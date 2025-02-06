@@ -1,0 +1,48 @@
+/* CartList.css */
+.cart-datagrid {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.productName {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgURL {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tbName {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
